@@ -1,0 +1,10 @@
+dotenv: .env
+compiler:
+  #evm_version: ">=0.6.0"
+  solc:
+    #version: ">=0.6.0"
+    remappings:
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@3.0.0"
+      - "@uniswap=Uniswap"
+wallets:
+  from_key: ${PRIVATE_KEY}
